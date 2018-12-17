@@ -148,6 +148,7 @@ body{
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
+  
 }
 
 .top .box {
@@ -188,6 +189,7 @@ body{
 
 .top .box canvas {
   position: absolute;
+  left: 0;
 }
 
 .content .resume .container:nth-child(3) {
@@ -297,6 +299,7 @@ body{
 .bot .box .skillset .icon i {
   font-size: 1.5em;
 }
+/* .bot .box .skillset .icon i:hover {} */
 
 .bot .box .skillset .bar-1 {
   margin: 0;
@@ -315,6 +318,62 @@ body{
   line-height: 30px;
   background-color: rgba(60, 60, 60, .2);
   border-radius: 3px;
+}
+
+/* ===== WEB */
+/* Wordpress */
+.bot .box:nth-child(1) .skillset:nth-child(1) .bar-1 p{
+	width: 85%;
+}
+/* SQL */
+.bot .box:nth-child(1) .skillset:nth-child(2) .bar-1 p{
+	width: 65%;
+}
+/* PHP */
+.bot .box:nth-child(1) .skillset:nth-child(3) .bar-1 p{
+	width: 45%;
+}
+
+/* ===== ADOBE */
+/* Wordpress */
+.bot .box:nth-child(2) .skillset:nth-child(1) .bar-1 p{
+	width: 97%;
+}
+/* SQL */
+.bot .box:nth-child(2) .skillset:nth-child(2) .bar-1 p{
+	width: 83%;
+}
+/* PHP */
+.bot .box:nth-child(2) .skillset:nth-child(3) .bar-1 p{
+	width: 80%;
+}
+
+/* ===== I.T. */
+/* Wordpress */
+.bot .box:nth-child(3) .skillset:nth-child(1) .bar-1 p{
+	width: 93%;
+}
+/* SQL */
+.bot .box:nth-child(3) .skillset:nth-child(2) .bar-1 p{
+	width: 85%;
+}
+/* PHP */
+.bot .box:nth-child(3) .skillset:nth-child(3) .bar-1 p{
+	width: 95%;
+}
+
+/* ===== PRO */
+/* Communication */
+.bot .box:nth-child(4) .skillset:nth-child(1) .bar-1 p{
+	width: 96%;
+}
+/* Leadership */
+.bot .box:nth-child(4) .skillset:nth-child(2) .bar-1 p{
+	width: 92%;
+}
+/* Teamwork */
+.bot .box:nth-child(4) .skillset:nth-child(3) .bar-1 p{
+	width: 97%;
 }
 
 .bot .box .skillset .bar-1 p:hover {
@@ -338,6 +397,7 @@ body{
   background-color: rgba(60, 60, 60, .9);
   border-radius: 0 0 5px 5px;
 }
+
 
 .education {
   position: relative;
