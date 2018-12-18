@@ -570,6 +570,11 @@ body{
   .bot .box:first-child {
     margin-top: 0;
   }
+  
+  .bot .box .skillset .icon image {
+  	width: 96px;
+  	height: 96px;
+  }
 
   .footer {
     height: 100px;
