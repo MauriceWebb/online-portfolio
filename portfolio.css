@@ -118,6 +118,55 @@ body{
   overflow-x: hidden;
 */
 }
+.portfolio .slider {
+	height: 100%;
+	width: 100%;
+	position: relative;
+}
+
+.slide {
+	height: 100%;
+	width: 100%;
+}
+.slide h1 {
+	margin: 0;
+}
+
+.slide .gallery {
+	margin: 0 auto;
+	padding: 15px 0;
+	height: 95%;
+	width: 75%;
+	
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.gallery div {
+	border-radius: 5px;
+	margin: 0 auto;
+	
+	height: 30%;
+	width: 30.5%;
+	
+	background-color: #EFF1F7;;
+	
+}
+
+.slider-controls {
+	border: 1px solid red;
+	position: absolute;
+	z-index: 10;
+	margin: 0 auto;
+	width: 60%;
+	height: 50px;
+}
+
+
+
+/*
 .loading {
   margin: 0;
   height: 50%;
@@ -144,7 +193,7 @@ body{
   font-size: 2em;
   opacity: .6
 }
-
+*/
 
 .footer{
   margin: 0;
