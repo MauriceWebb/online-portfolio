@@ -11,12 +11,12 @@ var category = {
     },
     illustrations: {
         images: [
-            '/portfolio_images/illustrations/art-1.png',
-            '/portfolio_images/illustrations/art-2.png',
-            '/portfolio_images/illustrations/art-3.png',
-            '/portfolio_images/illustrations/art-4.png',
-            '/portfolio_images/illustrations/art-5.png',
-            '/portfolio_images/illustrations/art-6.png'
+            'portfolio_images/illustrations/art-1.png',
+            'portfolio_images/illustrations/art-2.png',
+            'portfolio_images/illustrations/art-3.png',
+            'portfolio_images/illustrations/art-4.png',
+            'portfolio_images/illustrations/art-5.png',
+            'portfolio_images/illustrations/art-6.png'
         ]
     },
     prints: {
