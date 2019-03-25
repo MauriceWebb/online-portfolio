@@ -3,7 +3,8 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Maurice Webb Dev</title>
+		<title>Maurice Webb Dev</title>
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="portfolio.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
   </head>
@@ -18,67 +19,23 @@
           <li><a href="blog.html">Blog</a></li>
           <li><a href="contact.html">Contact</a></li>
         </ul>
-        <p>2018 &copy; Maurice Webb </p>
+        <p>2019 &copy; Maurice Webb </p>
       </div>
       <div class="flex">
         <div class="content">
           <div class="portfolio">
-
-			<section class="slider">
-				<div class="slide slide-1">
-					<h1>UI/UX</h1>
-					<div class="gallery">
-						<div>
-						<img src="" alt="" />
-						<!--
-						<img src="https://img00.deviantart.net/03a0/i/2015/112/6/7/new_f_w_o_i__wordpress_design_theme_by_zeluht-d5w74ol.jpg" alt="" /><a href="https://www.deviantart.com/zeluht/art/New-F-W-O-I-Wordpress-Design-Theme-356411253"></a>
-						-->
+						<section class="slider">
+							<div class="slide slide-1">
+								<h1 id="category_title"></h1>
+								<div class="container d-flex flex-row justify-content-around">
+									<div class="row p-5 text-center w-75 bg-light mt-5 d-flex justify-content-center" id="gallery">
+									</div>
+								</div>
+						</section>
+						<div class="slider-controls">
+							<span class="prev"><a href="" id="prev"><i class="fas fa-chevron-left"></i></a></span>
+							<span class="next"><a href="" id="next"><i class="fas fa-chevron-right"></i></a></span>
 						</div>
-						<div><img src="" alt="" /></div>
-						<div><img src="" alt="" /></div>
-						<div><img src="" alt="" /></div>
-						<div><img src="" alt="" /></div>
-						<div><img src="" alt="" /></div>
-						<div><img src="" alt="" /></div>
-						<div><img src="" alt="" /></div>
-						<div><img src="" alt="" /></div>
-					</div>
-				</div>
-				<!-- 
-				<div class="slide-1">
-					<h1>DESIGN</h1>
-					<div class="gallery">
-						<span><img src="" alt="" /></span>
-						<span><img src="" alt="" /></span>
-						<span><img src="" alt="" /></span>
-						<span><img src="" alt="" /></span>
-						<span><img src="" alt="" /></span>
-					</div>
-				</div>
-				
-				<div class="slide-1">
-					<h1>ILLUSTRATION</h1>
-					<div class="gallery">
-						<span><img src="" alt="" /></span>
-						<span><img src="" alt="" /></span>
-						<span><img src="" alt="" /></span>
-						<span><img src="" alt="" /></span>
-						<span><img src="" alt="" /></span>
-					</div>
-				</div>
-				-->
-			</section>
-			<div class="slider-controls">
-				<span class="prev"><a href=""><i class="fas fa-chevron-left"></i></a></span>
-				<span class="next"><a href=""><i class="fas fa-chevron-right"></i></a></span>
-			</div>
-            <!--
-            <div class="loading">
-              <p><i class="far fa-clock"></i></p>
-              <h3>Under Contruction</h3>
-            </div>
-			-->
-			
           </div>
         </div>
         <div class="footer">
@@ -91,5 +48,9 @@
         </div>
       </div>
     </div>
-  </body>
+	</body>
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js" ></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+	<script src="/javascript/portfolio.js"></script>
 </html>
