@@ -122,7 +122,11 @@ body{
 	height: 100%;
 	width: 100%;
 	position: relative;
-	overflow: hidden;
+  overflow: hidden;
+  overflow-y: scroll;
+}
+.portfolio .slider::-webkit-scrollbar {
+  width: 5px;
 }
 
 .slide {
@@ -144,29 +148,33 @@ body{
 	justify-content: space-around;
 	align-items: center;
 }
-
-.gallery div {
-	border-radius: 5px;
-	margin: 0 auto;
-	
-	height: 30%;
-	width: 30.5%;
-	/*box-shadow: inset 0px 0px 10px rgba(0,0,0,0.5);*/
-	background-color: #EFF1F7;
-	position: relative;
-	overflow: hidden;
+#gallery {
+  /* overflow: scroll; */
+}
+.portfolio_pic {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  overflow: hidden;
+  width: auto;
+  /* border: 1px solid red; */
 }
 
-.gallery div img {
-	margin: 0 auto;
+.portfolio_pic img {
+  margin: 0;
+  display: block;
 	border-radius: 5px;
 	width: 100%;
-	height: 100%;
-	transition: width 1s, height 1s;
+  /* object-fit: contain; */
+  object-position: center;
+  transition: width 2s ease-in;
 }
-.gallery div:hover img {
-	height: 110%;
-	width: 110%;
+.portfolio_pic img:hover {
+  /* height: 110%; */
+  width: 175%;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+  transition: width 2s ease-out;
 }
 .gallery div a {
 	position: absolute;
@@ -215,7 +223,9 @@ body{
 
 .slider-controls span:hover {
 	background-color: #333;
-	color: #fff;
+}
+.slider-controls span a:hover {
+  color: #fff;
 }
 
 .slider-controls span a i {
