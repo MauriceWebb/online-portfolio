@@ -301,6 +301,12 @@ body{
 }
 /* .bot .box .skillset .icon i:hover {} */
 
+.icon > img {
+  /* border: 1px solid red; */
+  object-fit: contain;
+  object-position: center;
+}
+
 .bot .box .skillset .bar-1 {
   margin: 0;
   height: 30px;
@@ -406,21 +412,30 @@ body{
 .ed-1 {
   position: relative;
 }
-.ed-1 a {
+.education > div > a {
   display: block;
   margin: 0;
   padding: 5px 8px;
   height: 30px;
   width: 190px;
-  background-color: #640233;
   color: #fff;
   border-radius: 5px;
   line-height: 30px;
   text-align: center;
   text-decoration: none;
 }
-.ed-1 a:hover {
+.education > div:nth-child(1) > a {
+  background-color: #000066;
+}
+.education > div:nth-child(1) > a:hover {
+  background-color: #990000;
+}
+.education > div:nth-child(2) > a {
+  background-color: #640233;
+}
+.education > div:nth-child(2) > a:hover {
   background-color: #1A919A;
+  
 }
 
 .tthLink {
