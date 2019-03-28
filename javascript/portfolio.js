@@ -13,7 +13,9 @@ var category = {
             'portfolio_images/logos/art-2.png',
             'portfolio_images/logos/art-3.png',
             'portfolio_images/logos/art-4.png',
-            'portfolio_images/logos/art-5.png'
+            'portfolio_images/logos/art-5.png',
+            'portfolio_images/logos/art-6.png',
+            'portfolio_images/logos/art-7.png'
         ]
     },
     illustrations: {
@@ -27,7 +29,11 @@ var category = {
         ]
     },
     prints: {
-        images: []
+        images: [
+            'portfolio_images/prints/art-0.png',
+            'portfolio_images/prints/art-1.png',
+            'portfolio_images/prints/art-2.png'
+        ]
     },
     'ui/ux': {
         images: []
@@ -83,6 +89,16 @@ function render_gallery() {
         $gallery.append(`
         <div class="col-sm-12 col-md-12 col-lg-4 portfolio_pic m-2">
             <img class="" src=${category.logos.images[i]} alt="">
+		</div>
+        `);
+        }
+    }
+    else if ($catTitle.text() === 'prints') {
+        // console.log('these are the illustrations!');
+        for (var i = 0; i < category.prints.images.length; i++) {
+        $gallery.append(`
+        <div class="col-sm-12 col-md-12 col-lg-4 portfolio_pic m-2">
+            <img class="" src=${category.prints.images[i]} alt="">
 		</div>
         `);
         }
